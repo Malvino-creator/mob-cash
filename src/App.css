@@ -3,6 +3,7 @@
 * > * {
     font-family: "Poppins", cursive;
     margin: 0;
+    font-size: medium;
 }
 
 body{
@@ -39,7 +40,7 @@ body{
 
 #form{
   max-width: 420px;
-  width: 150vw;
+  width: 160vw;
   margin: 2em auto;
   
 }
@@ -61,6 +62,8 @@ input[type="text"], textarea {
 }
 .custom{
   display: flex;
+  font-size: larger;
+  margin-top: 1em auto;
 }
 #btn{
   width: 8em;
@@ -110,6 +113,11 @@ input[type="text"], textarea {
   float: left;
   width: 50%;
 }
+#logo{
+  display: flex;
+  margin: 4em;
+}
+
 
 @media screen and (min-width: 860px)  {
   .register .col-2 img{
