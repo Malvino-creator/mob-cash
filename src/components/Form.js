@@ -8,11 +8,14 @@ function Form() {
                 <h2>Sign In</h2>
                 <span>register and enjoy the service</span>
 
+
                 <form id='form' className='flex flex-col'>
                     <input type='text' placeholder='username'/>
                     <input type='text' placeholder='password'/>
                     <input type='text' placeholder='confrim password'/>
                     <input type='text' placeholder='mobile number'/>
+
+                    <button className='btn'>Sign In</button>
                 </form>
             </div>
             <div className='col-2'></div>
