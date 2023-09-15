@@ -37,7 +37,12 @@ function Form() {
 
         <div className="col-2">
             <img src={bgimg} alt='' id='img'/>
-        
+            
+        <span>
+            <button className="proceed-btn">
+                Click To Proceed
+            </button>
+        </span>
         </div>
       </div>
     </section>
