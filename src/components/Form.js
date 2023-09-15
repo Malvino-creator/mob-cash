@@ -41,9 +41,8 @@ function Form() {
             <button className="proceed-btn">
                 Click To Proceed
             </button>
-        
+            <p id="terms">By clicking proceed you agree to our <strong><a href="privacy">Gift Cards Terms of Use</a></strong> and <strong><a href="privacy">Privacy Policy</a></strong></p>
         </div>
-        <span>By clicking proceed you agree to our Gift Cards Terms of Use and Privacy Policy</span>
       </div>
     </section>
   );
