@@ -1,4 +1,5 @@
 import React from 'react'
+import bgimg from "./assets/img1";
 
 function Form() {
   return (
@@ -10,15 +11,18 @@ function Form() {
 
 
                 <form id='form' className='flex flex-col'>
-                    <input type='text' placeholder='username'/>
-                    <input type='text' placeholder='password'/>
-                    <input type='text' placeholder='confrim password'/>
-                    <input type='text' placeholder='mobile number'/>
+                    <input type='text' placeholder='Recipient Name'/>
+                    <input type='text' placeholder='Your Name'/>
+                    <input type='text' placeholder='$'/>
+                    <input type='text' placeholder='Your message'/>
 
                     <button className='btn'>Sign In</button>
                 </form>
             </div>
-            <div className='col-2'></div>
+
+            <div className='col-2'>
+                <img src={bgimg}alt=''></img>
+            </div>
         </div>
     </section>
   )
