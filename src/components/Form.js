@@ -37,13 +37,13 @@ function Form() {
 
         <div className="col-2">
             <img src={bgimg} alt='' id='img'/>
-            
-        <span>
+
             <button className="proceed-btn">
                 Click To Proceed
             </button>
-        </span>
+        
         </div>
+        <span>By clicking proceed you agree to our Gift Cards Terms of Use and Privacy Policy</span>
       </div>
     </section>
   );

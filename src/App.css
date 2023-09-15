@@ -103,6 +103,8 @@ input[type="text"], textarea {
 
 #img{
   padding-top: 38vh;
+  padding-bottom: 10vh;
+  text-align: center;
 
 } 
 .col-2{
@@ -117,10 +119,12 @@ input[type="text"], textarea {
   margin: 4em;
   margin-bottom: 1em;
 }
-
-
-@media screen and (min-width: 860px)  {
-  .register .col-2 img{
-    display: initial;
-  }
+.proceed-btn{
+  border-radius: 12px;
+  background-color: black;
+  color:whitesmoke;
+  font-weight: bold;
+  width: 12em;
 }
+
+
