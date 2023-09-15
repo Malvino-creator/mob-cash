@@ -1,5 +1,5 @@
 import React from "react";
-// import bgimg from "../assets/bgimg.png";
+import bgimg from "../assets/bgimg.png";
 import logo from "../assets/logo.png";
 
 function Form() {
@@ -35,7 +35,10 @@ function Form() {
           </span>
         </div>
 
-        <div className="col-2">{/* <img src={bgimg} alt='' id='img'/> */}</div>
+        <div className="col-2">
+            <img src={bgimg} alt='' id='img'/>
+        
+        </div>
       </div>
     </section>
   );
