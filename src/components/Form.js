@@ -7,14 +7,25 @@ function Form() {
             <div className='register'>
                 <div className='col-1'>
 
-                    <span>Create a Custom Gift Card</span>
-
-
                     <form id='form' className='flex flex-col'>
+                        <span><h1 className='custom'>Create a Custom Gift Card</h1></span>
+
+                        <span>
+                            <h2>To</h2>
+                        </span>
                         <input type='text' placeholder='Recipient Name' />
+                        <span>
+                            <h2>From</h2>
+                        </span>
                         <input type='text' placeholder='Your Name' />
+                        <span>
+                            <h2>Amount(USD)</h2>
+                        </span>
                         <input type='text' placeholder='$' />
-                        < input type='text' placeholder='Your message' id='message'/>
+                        <span>
+                            <h2>Your message</h2>
+                        </span>
+                        < input type='text' placeholder='' id='message' />
 
                     </form>
                     <span>
@@ -25,7 +36,7 @@ function Form() {
                     <img src={bgimg} alt=''></img>
                 </div>
             </div>
-        </section> 
+        </section>
     )
 }
 
