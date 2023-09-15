@@ -62,8 +62,9 @@ input[type="text"], textarea {
 }
 .custom{
   display: flex;
-  font-size: larger;
-  margin-top: 1em auto;
+  font-size: 1000%;
+  margin-top: 3em auto;
+  
 }
 #btn{
   width: 8em;
@@ -116,6 +117,7 @@ input[type="text"], textarea {
 #logo{
   display: flex;
   margin: 4em;
+  margin-bottom: 1em;
 }
 
 

@@ -7,11 +7,11 @@ function Form() {
     <section>
       <div className="register">
         <div className="col-1">
-          <img src={logo} alt="" id="logo" width='200px' height='50px' />
+          <img src={logo} alt="" id="logo" width='250px' height='80px' />
 
           <form id="form" className="flex flex-col">
             <span>
-              <h1 className="custom">Create a Custom Gift Card</h1>
+              <h1 className="custom"><strong>Create a Custom Gift Card</strong></h1>
             </span>
             <span>
               <h2>To</h2>
