@@ -22,10 +22,10 @@ body{
 
 .register{
   max-width: 978px;
-  width: 100vw;
+  width: 200vw;
   display:flex;
   border: 1px solid #e9ecef;
-  border-radius: 5px;
+  border-radius: 3px;
   /* box-shadow: 1px 3px 10px #e9ecef; */
   background-color: white;
 }
@@ -33,25 +33,40 @@ body{
 .register span{
   color: #adb5bd;
 }
+#message{
+  height: 10em;
+}
 
 #form{
-  max-width: 320px;
-  width: 100vw;
+  max-width: 420px;
+  width: 150vw;
   margin: 2em auto;
+  
 }
 
 #form >  input, .btn{
   border: 1px solid #e9ecef;
   padding: .9em 1em;
+  border-radius: 10px;
 }
+
+#btn{
+  width: 8em;
+  border-radius: 10px;
+}
+#form > .btn{
+  border-radius: 100px;
+  
+}
+
 
 #form > input:focus{
   outline: none;
 }
 
 #form > .btn{
-  background-color: #003049;
-  color: #e9ecef;
+  background-color: white;
+  color: #050708;
   font-size: 1em;
   cursor: pointer;
 }
