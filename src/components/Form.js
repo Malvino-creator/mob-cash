@@ -1,19 +1,21 @@
 import React from "react";
 import bgimg from "../assets/bgimg.png";
-import {useForm} from "react-hook";
+import {useForm} from "react-hook-form";
 import logo from "../assets/logo.png";
 
-const {register,handleSubmit} = useForm();
-const onSubmit = data => console.log(data);
 
 function Form() {
+
+  const {register,handleSubmit} = useForm();
+  const onSubmit = data => console.log(data);
+
   return (
     <section>
       <div className="register">
         <div className="col-1">
           <img src={logo} alt="" id="logo" width="230px" height="70px" />
 
-          <form id="form" className="flex flex-col" on onSubmit={handleSubmit}>
+          <form id="form" className="flex flex-col" onSubmit={handleSubmit(onSubmit)}>
               <p className="custom">
                 <strong>Create a Custom Gift Card</strong>
               </p>
