@@ -28,7 +28,7 @@ body{
   display:flex;
   border: 1px solid #e9ecef;
   border-radius: 3px;
-  box-shadow: 1px 3px 10px #e9ecef;
+  box-shadow: 1px 3px 0px #e9ecef;
   background-color: white;
   height: 148vh;
   padding-bottom: -5vh;
@@ -118,6 +118,9 @@ input[type="text"], textarea {
 } 
 .col-2{
   background-color:skyblue;
+}
+.col-1{
+  padding-bottom: -4vh;
 }
 .col-1, .col-2{
   float: left;

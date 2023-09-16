@@ -1,6 +1,10 @@
 import React from "react";
 import bgimg from "../assets/bgimg.png";
+import {useForm} from "react-hook";
 import logo from "../assets/logo.png";
+
+const {register,handleSubmit} = useForm();
+const onSubmit = data => console.log(data);
 
 function Form() {
   return (
@@ -9,7 +13,7 @@ function Form() {
         <div className="col-1">
           <img src={logo} alt="" id="logo" width="230px" height="70px" />
 
-          <form id="form" className="flex flex-col">
+          <form id="form" className="flex flex-col" on onSubmit={handleSubmit}>
               <p className="custom">
                 <strong>Create a Custom Gift Card</strong>
               </p>
@@ -17,19 +21,19 @@ function Form() {
             <span>
               <h2>To</h2>
             </span>
-            <input type="text" placeholder="Recipient Name" />
+            <input type="text" {...register("recipient name")}placeholder="Recipient Name" />
             <span>
               <h2>From</h2>
             </span>
-            <input type="text" placeholder="Your Name" />
+            <input type="text"{...register("your name")} placeholder="Your Name" />
             <span>
               <h2>Amount(USD)</h2>
             </span>
-            <input type="text" placeholder="$" />
+            <input type="text"{...register("Amount")} placeholder="$" />
             <span>
               <h2>Your message</h2>
             </span>
-            <input type="text" placeholder="" id="message" />
+            <input type="text" {...register("message")}placeholder="" id="message" />
           </form>
           <span>
             <button id="btn">Generate</button>
